@@ -1,15 +1,24 @@
 body {
-	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url(source/background.jpg);
-	background-size: cover;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(source/background.jpg);
+  background-size: cover;
 }
 
+<<<<<<< HEAD
 nav{
 	width: 100%;
 	margin: auto;
 	position: fixed;
 	z-index: 1;
+=======
+/* navbar style */
+nav{
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  z-index: 1;
+>>>>>>> origin/main
 }
 
 .top-wrapper{
@@ -36,90 +45,155 @@ nav{
 }
 
 section {
-	margin: 50px;
+  margin: 50px;
 }
 
 .navbar {
-	background-color: #333;
-	overflow: hidden;
+  background-color: #333;
+  overflow: hidden;
 }
 
 .topnav a {
-	float: left;
-	color: #f2f2f2f2;
-	text-align: center;
-	padding: 12px 16px;
-	text-decoration: none;
-	font-size: 17px;
+  float: left;
+  color: #f2f2f2f2;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .tbl a {
-	float: right;
-	color: #f2f2f2f2;
-	text-align: center;
-	padding: 12px 16px;
-	text-decoration: none;
-	font-size: 17px;
+  float: right;
+  color: #f2f2f2f2;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .topnav a:hover {
-	background-color: #E4E9BE;
-	color: black;
+  background-color: #e4e9be;
+  color: black;
 }
 .tbl a:hover {
-	background-color: #E4E9BE;
-	color: black;
+  background-color: #e4e9be;
+  color: black;
 }
+/* end of navbar style */
 
+/* header */
 .wrapper {
-    width: 100%;
-    margin: auto;
-    position: relative;
+  width: 100%;
+  margin: auto;
+  position: relative;
 }
 
 .header {
-	display: flex;
-	padding: 100px 100px 0px 100px;
+  display: flex;
+  padding: 100px 100px 0px 100px;
 }
+
+/* header and main */
 .konten {
-	text-align: center;
+  text-align: center;
 }
 .konten h1 {
-	font-size: 40px;
+  font-size: 40px;
 }
 .konten h2 {
-	font-size: 50px;
-	margin: 5px;
+  font-size: 50px;
+  margin: 5px;
 }
 .header {
-	font-family: calibri;
-	font-size: 20px;
+  font-family: calibri;
+  font-size: 20px;
 }
 
 a.tbl-main {
-	background-color: #333;
-	text-decoration: none;
-	padding: 10px;
-	color: white;
-	border-radius: 10px;
+  background-color: #333;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
 }
 a.tbl-main:hover {
-	background-color: #E4E9BE;
-	color: black;
+  background-color: #e4e9be;
+  color: black;
 }
 
 .deskripsi {
-	text-align: left;
-	margin-left: 20px;
-	font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 20px;
 }
 
 .header img {
-	border-radius: 20px;
-	box-shadow: 20px 15px 10px #ACB992;
+  border-radius: 20px;
+  box-shadow: 20px 15px 10px #acb992;
 }
 
 .konten img {
-	border-radius: 20px;
-	box-shadow: 20px 15px 10px #ACB992;
+  border-radius: 20px;
+  box-shadow: 20px 15px 10px #acb992;
 }
+
+/* About */
+.about {
+  text-align: center;
+  padding: 50px;
+}
+
+.about img {
+  width: 40%;
+  margin: 20px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 20px 15px 10px #acb992;
+}
+
+.tbl-about {
+  text-align: center;
+}
+/* end of about */
+
+/* footer */
+footer {
+  width: 100%;
+  margin: auto;
+}
+.footer {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.footer-logo {
+  float: left;
+  width: 350px;
+}
+
+.footer-logo img {
+  height: 40px;
+  float: left;
+  padding: 20px;
+}
+
+.footer-logo p {
+  padding: 20px;
+  color: white;
+}
+.footer-list {
+  float: right;
+}
+.footer-list a {
+  float: right;
+  color: #f2f2f2f2;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.footer-list a:hover {
+  background-color: #e4e9be;
+  color: black;
+}
+/* end of footer */
