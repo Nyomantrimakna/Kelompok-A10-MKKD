@@ -50,27 +50,34 @@ section {
 }
 /* end of navbar style */
 
-.top-wrapper{
-	width: 100%;
-	margin: auto;
-    position: relative;
-	background-image: url('../source/Main.jpg');
-	background-size: cover;
+.top-wrapper {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-image: url(source/mountain.jpg);
+  background-size: cover;
+  z-index: 0;
 }
 
-.topmain{
-	padding: 230px 100px 230px 100px;
+.topmain {
+  padding: 200px 70px;
 }
 
-.topmain h1{
-	color: #f2f2f2f2;
-	font-size: 60px;
-	text-align: center;
-	font-weight: 900;
-	line-height: 70%;
-	text-shadow: 2px 2px black;
-	padding-bottom: 2px;
+.topmain p {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
 
+.topmain h1 {
+  color: #f2f2f2f2;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 900;
+  line-height: 70%;
+  text-shadow: 2px 2px black;
+  padding-bottom: 2px;
 }
 
 /* header */
