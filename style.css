@@ -100,3 +100,38 @@ a.tbl-main:hover {
 	border-radius: 20px;
 	box-shadow: 20px 15px 10px #ACB992;
 }
+
+/* footer */
+.footer {
+  height: 80px;
+  background-color: #333;
+  color: #f2f2f2f2;
+}
+
+.footer-logo {
+  float: left;
+  width: 350px;
+}
+
+.footer-logo img {
+  height: 40px;
+  float: left;
+  padding: 20px 15px 0 40px;
+}
+
+.footer-logo p {
+  padding-top: 18px;
+}
+.footer-list {
+  float: right;
+  margin: 34px 40px 0 0;
+}
+.footer-list a {
+  float: left;
+  text-decoration: none;
+  color: #f2f2f2f2;
+  padding-left: 25px;
+}
+.footer-list a:hover {
+  text-decoration: underline;
+}
